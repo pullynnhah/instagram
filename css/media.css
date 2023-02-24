@@ -1,0 +1,11 @@
+@media (min-width: 615px) {
+  body {
+    background: hotpink;
+  }
+}
+
+@media (min-width: 936px) {
+  body {
+    background-color: dodgerblue;
+  }
+}
