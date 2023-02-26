@@ -15,7 +15,8 @@
     align-items: flex-start;
   }
 
-  ion-icon {
+  ion-icon,
+  button {
     transition: all 300ms;
   }
 
@@ -75,6 +76,29 @@
 
     color: #fff;
     filter: drop-shadow(0 4px 4px rgba(0, 0, 0, 0.25));
+  }
+
+  .feed {
+    width: 614px;
+    margin: 22px 0 0;
+  }
+
+  .post {
+    border: 1px solid #dbdbdb;
+    border-radius: 3px;
+  }
+
+  button:hover {
+    scale: 0.95;
+    cursor: pointer;
+  }
+
+  .new-comment button:hover {
+    color: #0095f6;
+  }
+
+  footer {
+    display: none;
   }
 }
 
