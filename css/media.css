@@ -115,9 +115,76 @@
   }
 
   aside {
+    width: 293px;
+    height: fit-content;
     display: initial;
-    width: 300px;
-    height: 600px;
-    background-color: tomato;
+    position: sticky;
+    top: 111px;
+    right: 0;
+  }
+
+  .user {
+    display: flex;
+    align-items: center;
+    gap: 17px;
+  }
+
+  aside p,
+  .suggestions small {
+    font-size: 14px;
+    line-height: 16px;
+  }
+
+  .username {
+    font-weight: 500;
+  }
+
+  .name,
+  .suggestions small {
+    font-weight: 300;
+    color: #8e8e8e;
+  }
+
+  .suggestions {
+    display: flex;
+    flex-direction: column;
+    gap: 17px;
+    margin: 24px 0 33px;
+  }
+
+  .suggestions > div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 11px;
+  }
+
+  .suggestions-header p,
+  .suggestions-header button,
+  .suggestions button {
+    font-size: 12px;
+    line-height: 14px;
+    font-weight: 500;
+  }
+
+  .suggestions-header p {
+    color: #8e8e8e;
+  }
+
+  .suggestion small {
+    font-size: 12px;
+    line-height: 14px;
+  }
+
+  .suggestion button {
+    margin-left: auto;
+    color: #139ef2;
+  }
+
+  .disclamer p {
+    font-size: 11px;
+    line-height: 13px;
+    color: #c7c7c7;
+    margin-bottom: 18px;
   }
 }
