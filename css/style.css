@@ -92,10 +92,7 @@ nav img {
   text-overflow: ellipsis;
 }
 
-.stories ion-icon {
-  display: none;
-}
-
+.stories ion-icon,
 aside {
   display: none;
 }
