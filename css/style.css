@@ -43,7 +43,7 @@ nav img {
   width: 103px;
 }
 
-main {
+.container {
   margin: 54px 0;
 }
 
@@ -63,7 +63,7 @@ main {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 1px;
+  gap: 4px;
 }
 
 .story div {
@@ -90,4 +90,12 @@ main {
   text-align: center;
   overflow: hidden;
   text-overflow: ellipsis;
+}
+
+.stories ion-icon {
+  display: none;
+}
+
+aside {
+  display: none;
 }
