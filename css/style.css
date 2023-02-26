@@ -42,3 +42,52 @@ nav ion-icon {
 nav img {
   width: 103px;
 }
+
+main {
+  margin: 54px 0;
+}
+
+.stories {
+  height: 121px;
+  width: 100vw;
+
+  display: flex;
+  align-items: center;
+  gap: 14px;
+
+  padding: 0 18px;
+  overflow: hidden;
+}
+
+.story {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1px;
+}
+
+.story div {
+  width: 66px;
+  height: 66px;
+  background: url("../assets/stories.png");
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.story img {
+  min-width: 56px;
+}
+
+.story p {
+  width: 66px;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  color: #262626;
+
+  text-align: center;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
