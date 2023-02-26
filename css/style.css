@@ -107,10 +107,11 @@ aside {
 
 .post-header {
   height: 61px;
-  display: flex;
 
+  display: flex;
   justify-content: space-between;
   align-items: center;
+
   padding: 0 17px;
   margin-bottom: 1px solid #efefef;
 }
@@ -158,8 +159,8 @@ h2 {
   justify-content: flex-start;
   align-items: center;
   gap: 5px;
+
   padding: 0 17px;
-  margin-bottom: 14px;
 }
 
 .likes-info p {
@@ -172,4 +173,68 @@ h2 {
 
 strong {
   font-weight: 500;
+}
+
+.all-comments {
+  font-size: 16px;
+  line-height: 18px;
+
+  font-weight: 500;
+  color: #8e8e8e;
+  padding: 0 17px;
+  margin: 14px 0 5px;
+}
+
+.comment {
+  height: 20px;
+  font-size: 14px;
+  line-height: 16px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 17px;
+}
+
+.comment ion-icon {
+  font-size: 14px;
+}
+
+.new-comment {
+  height: 50px;
+  padding: 0 17px;
+  margin-top: 10px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-top: 1px solid #dbdbdb;
+}
+
+.new-comment ion-icon {
+  font-size: 20px;
+}
+
+input {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  padding: 0 5px;
+}
+
+input::placeholder {
+  font-weight: 400;
+  color: #979797;
+}
+
+.new-comment input {
+  flex-grow: 1;
+  font-size: 16px;
+  line-height: 20px;
+  margin: 0 5px;
+}
+
+.new-comment button {
+  color: #b2dffc;
+  font-size: 16px;
+  line-height: 18px;
 }

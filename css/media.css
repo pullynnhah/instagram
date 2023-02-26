@@ -35,17 +35,13 @@
     width: 215px;
     height: 28px;
 
+    font-size: 12px;
+    line-height: 14px;
+
     background: #fafafa;
     border: 1px solid #dbdbdb;
     border-radius: 3px;
-
-    font: 400 12px/14px "Roboto", sans-serif;
-    color: #000;
     text-align: center;
-  }
-
-  nav input::placeholder {
-    color: #979797;
   }
 
   .actions {
