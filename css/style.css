@@ -2,4 +2,43 @@
 
 body {
   font-family: "Roboto", sans-serif;
+  background: #fafafa;
+}
+
+header {
+  height: 54px;
+  width: 100vw;
+
+  position: fixed;
+  top: 0;
+  left: 0;
+
+  background: #fff;
+  border-bottom: 1px solid #dbdbdb;
+}
+
+nav {
+  height: 54px;
+  width: calc(100vw - 36px);
+  margin: 0 auto;
+
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav.mobile {
+  display: flex;
+}
+
+nav.desktop {
+  display: none;
+}
+
+nav ion-icon {
+  font-size: 22px;
+  color: #000;
+}
+
+nav img {
+  width: 103px;
 }

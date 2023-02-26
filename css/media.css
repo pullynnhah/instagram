@@ -2,10 +2,45 @@
   body {
     background: hotpink;
   }
+
+  nav.mobile {
+    display: none;
+  }
+
+  nav.desktop {
+    display: flex;
+  }
+
+  nav div {
+    display: flex;
+  }
+
+  .logo {
+    align-items: flex-start;
+  }
+
+  ion-icon {
+    transition: all 300ms;
+    color: #ff3e5b;
+  }
+  .logo ion-icon {
+    margin-right: 10px;
+    padding-right: 10px;
+    border-right: 1px solid #dbdbdb;
+  }
+
+  .actions {
+    align-items: center;
+    gap: 16px;
+  }
 }
 
 @media (min-width: 936px) {
   body {
     background-color: dodgerblue;
+  }
+
+  nav.desktop {
+    width: 935px;
   }
 }
