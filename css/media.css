@@ -1,8 +1,4 @@
 @media (min-width: 615px) {
-  body {
-    background: hotpink;
-  }
-
   nav.mobile {
     display: none;
   }
@@ -58,10 +54,6 @@
 }
 
 @media (min-width: 936px) {
-  body {
-    background-color: dodgerblue;
-  }
-
   nav.desktop {
     width: 935px;
   }
