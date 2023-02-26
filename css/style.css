@@ -36,9 +36,12 @@ nav.desktop {
   display: none;
 }
 
+ion-icon {
+  color: #000;
+}
+
 nav ion-icon {
   font-size: 22px;
-  color: #000;
 }
 
 nav img {
@@ -136,6 +139,7 @@ h2 {
 
 .post-header ion-icon {
   font-size: 16px;
+  color: #262626;
 }
 
 .right-icon {
@@ -175,7 +179,7 @@ h2 {
   font-size: 14px;
   line-height: 16px;
 
-  color: #000000;
+  color: #000;
 }
 
 strong {
@@ -220,6 +224,7 @@ strong {
 
 .new-comment ion-icon {
   font-size: 20px;
+  color: #262626;
 }
 
 input {
@@ -244,4 +249,17 @@ input::placeholder {
   color: #b2dffc;
   font-size: 16px;
   line-height: 18px;
+}
+
+footer {
+  height: 54px;
+  width: 100vw;
+  padding: 0 18px;
+
+  background: #fff;
+  border-top: 1px solid #dbdbdb;
+
+  position: fixed;
+  bottom: 0;
+  left: 0;
 }
