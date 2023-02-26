@@ -134,6 +134,7 @@ h2 {
   margin-left: auto;
 }
 
+.post > img,
 .post video {
   width: 100%;
 }
