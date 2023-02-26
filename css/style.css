@@ -3,6 +3,7 @@
 body {
   font-family: "Roboto", sans-serif;
   background: #fafafa;
+  color: #262626;
 }
 
 header {
@@ -85,7 +86,6 @@ nav img {
   font-weight: 400;
   font-size: 12px;
   line-height: 14px;
-  color: #262626;
 
   text-align: center;
   overflow: hidden;
