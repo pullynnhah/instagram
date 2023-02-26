@@ -138,3 +138,38 @@ h2 {
 .post video {
   width: 100%;
 }
+
+.reactions {
+  height: 42px;
+  padding: 0 17px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 14px;
+}
+
+.reactions ion-icon {
+  font-size: 22px;
+}
+
+.likes-info {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 5px;
+  padding: 0 17px;
+  margin-bottom: 14px;
+}
+
+.likes-info p {
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 16px;
+
+  color: #000000;
+}
+
+strong {
+  font-weight: 500;
+}
