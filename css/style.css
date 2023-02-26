@@ -96,3 +96,43 @@ nav img {
 aside {
   display: none;
 }
+
+.post {
+  border-top: 1px solid #dbdbdb;
+  border-bottom: 1px solid #dbdbdb;
+  background: #fff;
+  margin-bottom: 60px;
+}
+
+.post-header {
+  height: 61px;
+  display: flex;
+
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 17px;
+  margin-bottom: 1px solid #efefef;
+}
+
+.post-header img {
+  width: 32px;
+  margin-right: 15px;
+}
+
+h2 {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+}
+
+.post-header ion-icon {
+  font-size: 16px;
+}
+
+.right-icon {
+  margin-left: auto;
+}
+
+.post video {
+  width: 100%;
+}
