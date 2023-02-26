@@ -259,7 +259,15 @@ footer {
   background: #fff;
   border-top: 1px solid #dbdbdb;
 
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
   position: fixed;
   bottom: 0;
   left: 0;
+}
+
+footer ion-icon {
+  font-size: 22px;
 }
